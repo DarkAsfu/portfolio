@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Summer Camp",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase, Stripe, JWT, Tanstack Query, React Hook Form",
+        "images": "https://i.ibb.co/7K0R4Qn/Screenshot-2023-08-07-at-23-26-25-Vite-React.png",
+        "liveDemo": "https://summer-campbd.netlify.app/",
+        "githubRepo": {
+            "client": "https://github.com/DarkAsfu/summer-camp-client",
+            "server": "https://github.com/DarkAsfu/summer-camp-server"
+        },
+        "features": [
+            "1. Develop user-friendly Firebase Authentication for registration/login",
+            "2. separate dashboards for students, instructors, and admins",
+            "3.MongoDB CRUD operations, and",
+            "4. seamless Stripe payment integration."
+        ]
+    },
+    {
+        "title": "ToyCar Trader",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase",
+        "images": "https://i.ibb.co/r4Xv21Q/Screenshot-2023-06-27-at-10-38-28-Toy-Car-Trader-Home.png",
+        "liveDemo": "https://toy-car-trader.web.app/",
+        "githubRepo": {
+            "client": "https://github.com/DarkAsfu/toy-market-place-client",
+            "server": "https://github.com/DarkAsfu/toy-market-place-server"
+        },
+        "features": [
+            "1.Register with email/Google.",
+            "2.Pages: Home, All Toy, Blog. Navbar: profile, tooltip. My Toy/Add Toy conditional on login.",
+            "3.Users manage, update, delete their toys. Sort by price. No access to others toys.",
+            "4.Implement search operation in All toys page"      
+        ]
+    },
+    {
+        "title": "Task Management",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase",
+        "images": "https://i.ibb.co/WHbGmq6/Screenshot-2023-08-07-at-23-23-49-Task-Management.png",
+        "liveDemo": "https://task-management-asharaful.web.app/",
+        "githubRepo": {
+            "client": "https://github.com/DarkAsfu/task-management-client",
+            "server": "https://github.com/DarkAsfu/task-management-server"
+        },
+        "features": [
+            "1.Register with email, Google, GitHub, and FaceBook.",
+            "2.Conditional Navbar and Profile",
+            "3.User Add task can update status and delete own task",
+            "4.All task route show all task and my task route show only own task etc."
+        ]
+    },
+    {
+        "title": "The Hungry Cat",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+        "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase",
+        "images": "https://i.ibb.co/nDcpR9P/Screenshot-2023-06-27-at-14-05-21-The-Hungry-Cat.png",
+        "liveDemo": "https://the-hungry-cat-6d5c1.web.app/",
+        "githubRepo": {
+            "client": "https://github.com/DarkAsfu/hungry-cat-client",
+            "server": "https://github.com/DarkAsfu/hungry-cat-server"
+        },
+        "features": [
+            "1. Create accounts with email, Google, and GitHub.",
+            "2. Navbar shows p. picture and tooltip name on login",
+            "3. Home page highlights chef card with server-side data.",
+            "4. View Recipe button redirects to login or private recipe page based on login status." 
+        ]
+    }
+]
