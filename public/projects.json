@@ -2,12 +2,29 @@
     {
         "title": "Summer Camp",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase, Tanstack Query, and some npm packages",
+        "images": "https://i.ibb.co/FJfVCnW/Screenshot-2023-12-14-at-13-41-58-Home-Learner-Cafe.png",
+        "liveDemo": "https://learner-cafe.web.app/",
+        "githubRepo": {
+            "client": "https://github.com/DarkAsfu/summer-camp-client",
+            "server": "https://github.com/DarkAsfu/summer-camp-server"
+        },
+        "features": [
+            "1. separate dashboards for user, and admins",
+            "3. User management, Document approval authority.",
+            "4. Category and subject-wise document organization.",
+            "5. Single document view with related documents based on category.Private bookmark and download options after login. For Details see github readme.md file"
+        ]
+    },
+    {
+        "title": "GUB Material",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "technologies": "HTML, CSS, Tailwind, JavaScript, React, Node.js, MongoDB, Express.js, Firebase, Stripe, JWT, Tanstack Query, React Hook Form",
         "images": "https://i.ibb.co/7K0R4Qn/Screenshot-2023-08-07-at-23-26-25-Vite-React.png",
         "liveDemo": "https://summer-campbd.netlify.app/",
         "githubRepo": {
-            "client": "https://github.com/DarkAsfu/summer-camp-client",
-            "server": "https://github.com/DarkAsfu/summer-camp-server"
+            "client": "https://github.com/DarkAsfu/learner-cafe-client",
+            "server": "https://github.com/DarkAsfu/learner-cafe-server"
         },
         "features": [
             "1. Develop user-friendly Firebase Authentication for registration/login",

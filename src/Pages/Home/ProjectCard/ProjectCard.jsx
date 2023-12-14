@@ -6,11 +6,11 @@ const ProjectCard = ({ project }) => {
     const { title, technologies, images, liveDemo, githubRepo, features } = project;
 
     return (
-        <div data-aos="fade-up" className=' bg-gray-900 rounded-xl'>
+        <div data-aos="fade-up" className=' bg-gray-900 rounded-xl pb-20'>
             <div className="image-wrap rounded-ss-xl rounded-se-xl">
                 <img src={images} alt="" />
             </div>
-            <div className='text-white p-4'>
+            <div className='text-white p-4 relative'>
                 <h1 className='text-2xl text-[#10E956] font-extrabold font-mono'>{title}</h1>
                 <h3 className='font-bold text-[#10E956]'>Features: </h3>
                 <div>
@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
                     <Link to={githubRepo.server} target='_blank'  className='flex gap-4 items-center'><FaGithub></FaGithub><p>Server Side</p></Link> 
                     </div>
                 </div>
-                <Link to={liveDemo} target='_blank' className=''><button className='btn btn-outline text-[#10E956] mt-5 w-full animate-bounce shadow-[#10E956] shadow-inner'>Live Link</button></Link>
+                <Link to={liveDemo} target='_blank' className=''><button className=' btn btn-outline text-[#10E956] mt-5 w-[90%] animate-bounce shadow-[#10E956] shadow-inner  absolute left-[5%]'>Live Link</button></Link>
             </div>
         </div>
     );

@@ -42,9 +42,9 @@ const NavBar = () => {
                   htmlFor="my-drawer"
                   className="drawer-overlay"
                 ></label>
-                <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content font-bold text-xl">
+                <ul className="menu p-4 w-80 h-full bg-[#050810] text-white font-bold text-xl">
                   {/* Sidebar content here */}
-                  <h1 className="uppercase text-4xl font-extrabold mb-8">Ashraful</h1>
+                  <h1 className="uppercase text-[#10E956] text-4xl font-extrabold mb-8">Ashraful</h1>
                   <li>
                     <ScrollLink
                       to="home"
@@ -97,11 +97,11 @@ const NavBar = () => {
                     </ScrollLink>
                   </li>
 
-                  <h1 className="text-2xl font-bold mt-8 text-[#15043e]">Connect Here</h1>
+                  <h1 className="text-2xl font-bold mt-8 text-[#fff]">Connect Here</h1>
                   <div className="flex gap-6 mt-4">
-                    <Link to="https://www.linkedin.com/in/ashraful-islam-dev"><img className="w-6" src="https://i.ibb.co/3cfcFBW/linkedin.png" alt="" /></Link>
-                    <Link to="https://github.com/Darkasfu" target="_blank"><img className="w-6" src="https://i.ibb.co/5vKgQps/github-1.png" alt="" /></Link>
-                    <Link><img className="w-6" src="https://i.ibb.co/jkgHFDR/facebook-1.png" alt="" /></Link>
+                    <Link to="https://www.linkedin.com/in/ashrafulislamm"><img className="w-6" src="https://i.ibb.co/3cfcFBW/linkedin.png" alt="" /></Link>
+                    <Link to="https://github.com/Darkasfu" target="_blank"><img className="w-6" src="https://i.ibb.co/QnW4Q5v/github-mark-white.png" alt="" /></Link>
+                    <Link to="https://www.facebook.com/heyashrafulislam/"><img className="w-6" src="https://i.ibb.co/jkgHFDR/facebook-1.png" alt="" /></Link>
                   </div>
                 </ul>
               </div>
@@ -117,7 +117,7 @@ const NavBar = () => {
           </a>
         </div>
         <div className="navbar-end">
-          <Link to="https://www.linkedin.com/in/ashraful-islam-dev" target="_blank">
+          <Link to="https://www.linkedin.com/in/ashrafulislamm" target="_blank">
           <button className="btn btn-ghost btn-circle">
             <FaLinkedin className="text-[#1E2128] text-3xl" />
           </button>

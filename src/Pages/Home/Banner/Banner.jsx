@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "@lottiefiles/lottie-player";
-import resume from '../../../assets/resume.pdf'
+import resume from '../../../assets/Md Ashraful Islam_MERN_Stack_developer_resume.pdf'
 import "./Banner.css";
 
 const Banner = () => {
@@ -53,9 +53,9 @@ const Banner = () => {
                             </span>
                             . I Help Startups Launch And Grow Their Products.
                         </h1>
-                        <p>Building modern MERN stack solutions for seamless web experiences. Let's create something exceptional together</p>
+                        <p>Building modern MERN stack solutions for seamless web experiences. Lets create something exceptional together</p>
                         <a href={resume} download>
-                            <button className="btn btn-outline border-[#10E956] border-2 text-white mt-5 animate-pulse hover:bg-[#1E2128]" >
+                            <button className="btn btn-outline border-[#10E956] border-2 text-white mt-5 animate-pulse hover:text-white hover:bg-[#1E2128]" >
                                 <AiOutlineCloudDownload className="text-[#10E956] text-3xl" />
                                 Resume
                             </button>
